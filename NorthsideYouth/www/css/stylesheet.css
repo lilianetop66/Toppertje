@@ -1,0 +1,338 @@
+body {
+    text-align:center;
+    font-family: Verdana, sans-serif;
+    margin-top: 0;
+    padding: 0;
+    
+}
+h2, h3, h4 {
+    color: darkgreen;
+}
+h2{
+    text-align: center;
+}
+/*-----------------------start header-------------------------*/
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 350px;
+    z-index: 10;
+    margin: 0 auto;
+}
+nav { 
+    background-color: darkgreen;
+    height: 55px;
+    width: 75%;
+    margin: 0 auto 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+nav ul {
+    display: inline-flex;
+    align-content: center;
+    align-items: center;
+    list-style-type: none;    
+}
+nav li { 
+    display: inline;
+    align-content: center;
+    align-items: center;
+    padding: 5px;  
+    box-shadow: 0px 5px 5px 0 black; 
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+nav li a {
+    padding: 5px 10px 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    opacity: .8;
+    border: 2px solid greenyellow;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    text-shadow: 2px 2px 4px black;
+}
+nav li a:hover{
+    color: black;
+    background-color:greenyellow;
+}
+li a.current{
+    color:black;
+    background-color: greenyellow;    
+}
+li a.active{
+    color:black;
+    background-color: greenyellow;    
+}
+.logoBanner {
+    width: 100%;
+}
+.pageTitle {
+    background-color: darkgreen;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 75%;
+    height: 40px;
+    padding: 12px 15px 10px;
+    margin: 0 auto; 
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+/* ---------------------end of header-----------------------*/
+main {
+    margin: 400px auto -15px;
+    width: 75%;
+    border: 3px solid darkgreen;
+    background-color:  hsl(85, 75%, 89%);
+}
+
+/*-------home page-----------------*/
+#cta {
+    border: 2px solid darkgreen;
+    width: 300px;
+    height: 200px; 
+    box-shadow: 10px 20px 5px darkgreen;
+    padding: 20px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+}
+
+#cta:hover {
+    background-color:greenyellow;
+    color: black;
+}
+
+.aside {
+    display: flex;
+    flex-direction: row;
+    padding: 100px 50px 25px 100px;
+    width: 65%;
+   
+}
+.announcement {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 100px 50px;
+    padding: 50px 100px 50px 50px;
+    border: 2px solid darkgreen;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 5px darkgreen;
+  
+}
+/*------------- start of about page---------------*/
+.about{
+    padding: 20px 50px;
+    border: 2px solid darkgreen;
+    margin: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 5px darkgreen;
+
+}
+
+/* -----------------start of game informstion-----------*/
+
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex:1;
+}
+thead{
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+}
+table{
+    border: 2px solid darkgreen;
+    padding: 20px; 
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 5px darkgreen;
+    margin: 20px 30px;
+}
+tbody{
+    text-align: left;
+}
+td {
+    padding: 10px 0 5px 50px;
+}
+.extraInfo {
+    text-align: left;
+    padding: 20px 50px;
+    margin: 30px;
+    border: 2px solid darkgreen;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 5px darkgreen;
+}
+/*----------- start of rules------------------------*/
+.alignRight {
+    float: right;
+}
+.infoRules{
+    text-align: left;
+    line-height: 1.5rem;
+    padding: 20px 50px;
+    margin: 30px;
+    border: 2px solid darkgreen;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 5px darkgreen;
+}
+
+
+/* ---------------start registratieformulier-------------------*/
+.borderPage {
+    text-align: left;
+    padding: 0 20px;
+}
+form {
+    background-color:  hsl(85, 75%, 89%);
+   
+}
+fieldset{
+    padding: 0 20px 10px;
+    margin: 10px 0;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 10px 20px 5px darkgreen;
+}
+legend{
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 3px solid greenyellow;
+    color: white;
+    background-color: darkgreen;
+    padding: 5px 10px;
+    margin:  auto;
+}
+.label1 {
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    padding: 8px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 2px solid greenyellow;
+}
+label{
+    font-size: 18px;
+    margin: 0 5px 0 0;
+}
+select {
+    width: 100px;
+    font-size: 18px;
+    font-family:Verdana, sans-serif;    
+}
+.selectOption{
+    width: 200px;
+}
+input {
+    font-size: 16px;
+    padding: 5px;
+    font-family: Verdana, sans-serif;
+}
+input[type='radio']{
+    transform: scale(1.3);
+    margin-left: 10px;
+    
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid darkgreen;
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: greenyellow;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid darkgreen;
+}
+input.checkBox {
+    transform: scale(1.3); 
+   margin: auto 10px 5px;
+
+}
+input[type='checkbox']:after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid darkgreen;
+}
+input[type='checkbox']:checked:after{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: greenyellow;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid darkgreen;
+}
+#popUp {
+    font-size: 30px;
+    padding: 5px 20px;
+    margin: 50px 45% 25px;
+    background-color: darkgreen;
+    color: white;
+    border: 3px solid greenyellow;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 15px 15px 0 darkgreen;
+}
+#popUp:hover{
+    background-color: red;
+    color: black;
+}
+#popUp:active{
+    background-color: red;
+    color: black;
+    margin-top: 10px;
+}
+/*---------------end of registration form-----*/
+
+footer {
+    background-image: url(../images/client/imageGrass.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+}
